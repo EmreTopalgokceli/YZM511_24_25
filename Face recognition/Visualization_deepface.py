@@ -4,7 +4,7 @@ import pandas as pd
 import cv2
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use("TkAgg")  # Grafik arayüzü için uygun backend kulla
+matplotlib.use("TkAgg")  
 
 
 def visualize_attribute(img_path, result, attribute="age"):
