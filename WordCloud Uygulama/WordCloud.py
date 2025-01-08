@@ -111,7 +111,7 @@ for i in doc.sentences:
 
 from wordcloud import WordCloud
 import matplotlib
-matplotlib.use("TkAgg")  # Grafik arayüzü için uygun backend kullanımı, siz de gerekmeyebilir
+matplotlib.use("TkAgg")  # Grafik arayüzü için uygun backend kullanımı, sizde gerekmeyebilir
 import matplotlib.pyplot as plt
 
 
