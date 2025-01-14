@@ -22,7 +22,7 @@ def get_news_from_web(url):
 
 
 # Web sitesinin URL'sini girin
-news_url = "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-36-yil-once-pkknin-ikiyaka-katliaminda-yasamini-kaybedenlerin-aileleriyle-gorustu-42658929"  # Değiştirmeniz gereken URL
+news_url = "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-36-yil-once-pkknin-ikiyaka-katliaminda-yasamini-kaybedenlerin-aileleriyle-gorustu-42658929"  # Ornek
 
 # Web'den haber metnini al
 news_text = get_news_from_web(news_url)
