@@ -1,2 +1,2 @@
 # YZM511_24_25
-Lecture notes
+Lecture Notes for Statistical and Machine Learning at Istanbul Nisantasi University
