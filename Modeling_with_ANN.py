@@ -25,6 +25,10 @@ X['Sex'] = X['Sex'].map({'female': 0, 'male': 1})
 # Veriyi eğitim ve test setlerine ayırıyoruz (%80 eğitim, %20 test).
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+# Modelin doğruluğunu ölçmek için veriyi eğitim ve test setlerine ayırıyoruz. 
+# Eğitim verisi modelin öğrenmesini sağlarken, test verisi daha önce görülmemiş verilerle modelin performansını değerlendirmemize yardımcı olur. 
+# Bu ayrım, modelin gerçek dünyada nasıl performans göstereceğini anlamamıza olanak tanır.
+
 # Veriyi ölçeklendiriyoruz (min-max normalizasyonu uyguluyoruz).
 # MinMaxScaler veriyi [0, 1] aralığına çeker.
 scaler = MinMaxScaler()
