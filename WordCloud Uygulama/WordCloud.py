@@ -66,7 +66,7 @@ metin = ham_metin.lower()
 # Asagidaki kod harfler, rakamlar, alt çizgi ve boşluk dışındaki tüm karakterleri veya rakamları hedef alarak bunları kaldırır.
 metin = re.sub(r'[^\w\s]|\d', '', metin)
 # r'[^\wÇçĞğİıÖöŞşÜü\s]': Harfler, rakamlar ve Türkçe karakterler dışındaki tüm karakterler seçilir.
-# metin = re.sub(r'[^\wÇçĞğİıÖöŞşÜü\s]', '', metin)
+# metin = re.sub(r'[^a-zA-ZÇçĞğİıÖöŞşÜü\s]', '', metin)
 
 # REGEX'te bazi on tanimli ifadeler:
 # \d: Rakamlar (0-9)
