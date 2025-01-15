@@ -68,6 +68,14 @@ metin = re.sub(r'[^\w\s]|\d', '', metin)
 # r'[^\wÇçĞğİıÖöŞşÜü\s]': Harfler, rakamlar ve Türkçe karakterler dışındaki tüm karakterler seçilir.
 # metin = re.sub(r'[^\wÇçĞğİıÖöŞşÜü\s]', '', metin)
 
+# REGEX'te bazi on tanimli ifadeler:
+# \d: Rakamlar (0-9)
+# \D: Rakam olmayan karakterler
+# \s: Boşluk karakterleri (boşluk, tab, yeni satır vb.)
+# \S: Boşluk olmayan karakterler
+# \w: Harfler, rakamlar ve alt çizgi (_)
+# \W: Harfler, rakamlar ve alt çizgi olmayan karakterler
+
 # Stopwords çıkarma
 # NLTK'nin Türkçe stopwords listesini alıyoruz
 stopwords_listesi = set(stopwords.words("turkish"))
